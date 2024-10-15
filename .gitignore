@@ -212,6 +212,7 @@ pyrightconfig.json
 .vscode/
 submit/
 build/
+stress/
 
 # logs:
 *.log

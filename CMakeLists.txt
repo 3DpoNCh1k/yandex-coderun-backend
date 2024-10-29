@@ -19,7 +19,7 @@ include(FetchContent)
 message(STATUS "Fetch algo")
 FetchContent_Declare(
         algo
-        GIT_REPOSITORY git@github.com:3DpoNCh1k/algo.git
+        GIT_REPOSITORY https://github.com/3DpoNCh1k/algo.git
         GIT_TAG master
 )
 FetchContent_MakeAvailable(algo)

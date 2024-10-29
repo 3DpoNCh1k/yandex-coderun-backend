@@ -1,5 +1,5 @@
 
-# [Yandex Coderun. Backend. Season 2.](https://coderun.yandex.ru/seasons/2024-summer/tracks/backend/rating)  
+# [Yandex CodeRun. Backend. Season 2](https://coderun.yandex.ru/seasons/2024-summer/tracks/backend/rating)
 
 ## 🎉 [14th place](./certificate.pdf) 🎉
 

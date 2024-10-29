@@ -91,12 +91,10 @@ int main() {
 
   vector<vector<i32>> fact_a(n + 1), fact_b(m + 1);
   for (int i = 0; i < n + 1; ++i) {
-    // fact_a[i] = factor(a[i]);
     fact_a[i] = algo::maths::algebra::factorization::Factorize(a[i]);
   }
 
   for (int i = 0; i < m + 1; ++i) {
-    // fact_b[i] = factor(b[i]);
     fact_b[i] = algo::maths::algebra::factorization::Factorize(b[i]);
   }
 
@@ -116,7 +114,6 @@ int main() {
       int x;
       cin >> x;
       map<int, int> m_x;
-      // for (int d : factor(x)) {
       for (int d : algo::maths::algebra::factorization::Factorize(x)) {
         m_x[d]++;
       }
